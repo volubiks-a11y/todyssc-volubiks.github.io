@@ -5,9 +5,11 @@
     "slug": "clothing-1",
     "price": 5300,
     "currency": "NGN",
-    "image": "/data/images/C1.jpg",
+    "image": "/data/images/C1_1.jpg",
     "images": [
-      "/data/images/C1.jpg"
+      "/data/images/C1_1.jpg",
+      "/data/images/C1_2.jpg",
+      "/data/images/C1_3.jpg"
     ],
     "description": "Premium clothing collection item 1. Comfortable and stylish wear for everyday occasions.",
     "category": "clothings",
@@ -27,9 +29,11 @@
     "slug": "clothing-2",
     "price": 5600,
     "currency": "NGN",
-    "image": "/data/images/C2.jpg",
+    "image": "/data/images/C2_1.jpg",
     "images": [
-      "/data/images/C2.jpg"
+      "/data/images/C2_1.jpg",
+      "/data/images/C2_2.jpg",
+      "/data/images/C2_3.jpg"
     ],
     "description": "Premium clothing collection item 2. Comfortable and stylish wear for everyday occasions.",
     "category": "clothings",
@@ -49,9 +53,11 @@
     "slug": "clothing-3",
     "price": 5900,
     "currency": "NGN",
-    "image": "/data/images/C3.jpg",
+    "image": "/data/images/C3_1.jpg",
     "images": [
-      "/data/images/C3.jpg"
+      "/data/images/C3_1.jpg",
+      "/data/images/C3_2.jpg",
+      "/data/images/C3_3.jpg"
     ],
     "description": "Premium clothing collection item 3. Comfortable and stylish wear for everyday occasions.",
     "category": "clothings",
@@ -71,9 +77,10 @@
     "slug": "clothing-4",
     "price": 6200,
     "currency": "NGN",
-    "image": "/data/images/C4.jpg",
+    "image": "/data/images/C4_1.jpg",
     "images": [
-      "/data/images/C4.jpg"
+      "/data/images/C4_1.jpg",
+      "/data/images/C4_2.jpg"
     ],
     "description": "Premium clothing collection item 4. Comfortable and stylish wear for everyday occasions.",
     "category": "clothings",
@@ -93,9 +100,10 @@
     "slug": "clothing-5",
     "price": 6500,
     "currency": "NGN",
-    "image": "/data/images/C5.jpg",
+    "image": "/data/images/C5_1.jpg",
     "images": [
-      "/data/images/C5.jpg"
+      "/data/images/C5_1.jpg",
+      "/data/images/C5_2.jpg"
     ],
     "description": "Premium clothing collection item 5. Comfortable and stylish wear for everyday occasions.",
     "category": "clothings",
@@ -115,9 +123,11 @@
     "slug": "clothing-6",
     "price": 6800,
     "currency": "NGN",
-    "image": "/data/images/C6.jpg",
+    "image": "/data/images/C6_1.jpg",
     "images": [
-      "/data/images/C6.jpg"
+      "/data/images/C6_1.jpg",
+      "/data/images/C6_2.jpg",
+      "/data/images/C6_3.jpg"
     ],
     "description": "Premium clothing collection item 6. Comfortable and stylish wear for everyday occasions.",
     "category": "clothings",
@@ -137,9 +147,10 @@
     "slug": "clothing-7",
     "price": 7100,
     "currency": "NGN",
-    "image": "/data/images/C7.jpg",
+    "image": "/data/images/C7_1.jpg",
     "images": [
-      "/data/images/C7.jpg"
+      "/data/images/C7_1.jpg",
+      "/data/images/C7_2.jpg"
     ],
     "description": "Premium clothing collection item 7. Comfortable and stylish wear for everyday occasions.",
     "category": "clothings",
@@ -159,9 +170,10 @@
     "slug": "clothing-8",
     "price": 7400,
     "currency": "NGN",
-    "image": "/data/images/C8.jpg",
+    "image": "/data/images/C8_1.jpg",
     "images": [
-      "/data/images/C8.jpg"
+      "/data/images/C8_1.jpg",
+      "/data/images/C8_2.jpg"
     ],
     "description": "Premium clothing collection item 8. Comfortable and stylish wear for everyday occasions.",
     "category": "clothings",
@@ -181,9 +193,10 @@
     "slug": "clothing-9",
     "price": 7700,
     "currency": "NGN",
-    "image": "/data/images/C9.jpg",
+    "image": "/data/images/C9_1.jpg",
     "images": [
-      "/data/images/C9.jpg"
+      "/data/images/C9_1.jpg",
+      "/data/images/C9_2.jpg"
     ],
     "description": "Premium clothing collection item 9. Comfortable and stylish wear for everyday occasions.",
     "category": "clothings",
@@ -203,9 +216,10 @@
     "slug": "clothing-10",
     "price": 8000,
     "currency": "NGN",
-    "image": "/data/images/C10.jpg",
+    "image": "/data/images/C10_1.jpg",
     "images": [
-      "/data/images/C10.jpg"
+      "/data/images/C10_1.jpg",
+      "/data/images/C10_2.jpg"
     ],
     "description": "Premium clothing collection item 10. Comfortable and stylish wear for everyday occasions.",
     "category": "clothings",
