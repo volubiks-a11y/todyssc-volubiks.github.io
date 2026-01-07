@@ -1,0 +1,632 @@
+[
+  {
+    "id": "1",
+    "name": "Premium Item #1",
+    "slug": "item-1",
+    "price": 2200,
+    "currency": "NGN",
+    "image": "/data/images/item-1.jpg",
+    "images": [
+      "/data/images/item-1.jpg",
+      "/data/images/item-1(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 1",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 12,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Premium Item #2",
+    "slug": "item-2",
+    "price": 2400,
+    "currency": "NGN",
+    "image": "/data/images/item-2.jpg",
+    "images": [
+      "/data/images/item-2.jpg",
+      "/data/images/item-2(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 2",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 14,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Premium Item #3",
+    "slug": "item-3",
+    "price": 2600,
+    "currency": "NGN",
+    "image": "/data/images/item-3.jpg",
+    "images": [
+      "/data/images/item-3.jpg",
+      "/data/images/item-3(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 3",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 16,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Premium Item #4",
+    "slug": "item-4",
+    "price": 2800,
+    "currency": "NGN",
+    "image": "/data/images/item-4.jpg",
+    "images": [
+      "/data/images/item-4.jpg",
+      "/data/images/item-4(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 4",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 18,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Premium Item #5",
+    "slug": "item-5",
+    "price": 3000,
+    "currency": "NGN",
+    "image": "/data/images/item-5.jpg",
+    "images": [
+      "/data/images/item-5.jpg",
+      "/data/images/item-5(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 5",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 20,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Premium Item #6",
+    "slug": "item-6",
+    "price": 3200,
+    "currency": "NGN",
+    "image": "/data/images/item-6.jpg",
+    "images": [
+      "/data/images/item-6.jpg",
+      "/data/images/item-6(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 6",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 22,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Premium Item #7",
+    "slug": "item-7",
+    "price": 3400,
+    "currency": "NGN",
+    "image": "/data/images/item-7.jpg",
+    "images": [
+      "/data/images/item-7.jpg",
+      "/data/images/item-7(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 7",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 24,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Premium Item #8",
+    "slug": "item-8",
+    "price": 3600,
+    "currency": "NGN",
+    "image": "/data/images/item-8.jpg",
+    "images": [
+      "/data/images/item-8.jpg",
+      "/data/images/item-8(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 8",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 26,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Premium Item #9",
+    "slug": "item-9",
+    "price": 3800,
+    "currency": "NGN",
+    "image": "/data/images/item-9.jpg",
+    "images": [
+      "/data/images/item-9.jpg",
+      "/data/images/item-9(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 9",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 28,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Premium Item #10",
+    "slug": "item-10",
+    "price": 4000,
+    "currency": "NGN",
+    "image": "/data/images/item-10.jpg",
+    "images": [
+      "/data/images/item-10.jpg",
+      "/data/images/item-10(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 10",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 30,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Premium Item #11",
+    "slug": "item-11",
+    "price": 4200,
+    "currency": "NGN",
+    "image": "/data/images/item-11.jpg",
+    "images": [
+      "/data/images/item-11.jpg",
+      "/data/images/item-11(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 11",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 32,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Premium Item #12",
+    "slug": "item-12",
+    "price": 4400,
+    "currency": "NGN",
+    "image": "/data/images/item-12.jpg",
+    "images": [
+      "/data/images/item-12.jpg",
+      "/data/images/item-12(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 12",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 34,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Premium Item #13",
+    "slug": "item-13",
+    "price": 4600,
+    "currency": "NGN",
+    "image": "/data/images/item-13.jpg",
+    "images": [
+      "/data/images/item-13.jpg",
+      "/data/images/item-13(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 13",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 36,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Premium Item #14",
+    "slug": "item-14",
+    "price": 4800,
+    "currency": "NGN",
+    "image": "/data/images/item-14.jpg",
+    "images": [
+      "/data/images/item-14.jpg",
+      "/data/images/item-14(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 14",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 38,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Premium Item #15",
+    "slug": "item-15",
+    "price": 5000,
+    "currency": "NGN",
+    "image": "/data/images/item-15.jpg",
+    "images": [
+      "/data/images/item-15.jpg",
+      "/data/images/item-15(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 15",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 40,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Premium Item #16",
+    "slug": "item-16",
+    "price": 5200,
+    "currency": "NGN",
+    "image": "/data/images/item-16.jpg",
+    "images": [
+      "/data/images/item-16.jpg",
+      "/data/images/item-16(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 16",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 42,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Premium Item #17",
+    "slug": "item-17",
+    "price": 5400,
+    "currency": "NGN",
+    "image": "/data/images/item-17.jpg",
+    "images": [
+      "/data/images/item-17.jpg",
+      "/data/images/item-17(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 17",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 44,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Premium Item #18",
+    "slug": "item-18",
+    "price": 5600,
+    "currency": "NGN",
+    "image": "/data/images/item-18.jpg",
+    "images": [
+      "/data/images/item-18.jpg",
+      "/data/images/item-18(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 18",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 46,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Premium Item #19",
+    "slug": "item-19",
+    "price": 5800,
+    "currency": "NGN",
+    "image": "/data/images/item-19.jpg",
+    "images": [
+      "/data/images/item-19.jpg",
+      "/data/images/item-19(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 19",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 48,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Premium Item #20",
+    "slug": "item-20",
+    "price": 6000,
+    "currency": "NGN",
+    "image": "/data/images/item-20.jpg",
+    "images": [
+      "/data/images/item-20.jpg",
+      "/data/images/item-20(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 20",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 50,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Premium Item #21",
+    "slug": "item-21",
+    "price": 6200,
+    "currency": "NGN",
+    "image": "/data/images/item-21.jpg",
+    "images": [
+      "/data/images/item-21.jpg",
+      "/data/images/item-21(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 21",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 52,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Premium Item #22",
+    "slug": "item-22",
+    "price": 6400,
+    "currency": "NGN",
+    "image": "/data/images/item-22.jpg",
+    "images": [
+      "/data/images/item-22.jpg",
+      "/data/images/item-22(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 22",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 54,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Premium Item #23",
+    "slug": "item-23",
+    "price": 6600,
+    "currency": "NGN",
+    "image": "/data/images/item-23.jpg",
+    "images": [
+      "/data/images/item-23.jpg",
+      "/data/images/item-23(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 23",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 56,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Premium Item #24",
+    "slug": "item-24",
+    "price": 6800,
+    "currency": "NGN",
+    "image": "/data/images/item-24.jpg",
+    "images": [
+      "/data/images/item-24.jpg",
+      "/data/images/item-24(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 24",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 58,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Premium Item #25",
+    "slug": "item-25",
+    "price": 7000,
+    "currency": "NGN",
+    "image": "/data/images/item-25.jpg",
+    "images": [
+      "/data/images/item-25.jpg",
+      "/data/images/item-25(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 25",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 60,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Premium Item #26",
+    "slug": "item-26",
+    "price": 7200,
+    "currency": "NGN",
+    "image": "/data/images/item-26.jpg",
+    "images": [
+      "/data/images/item-26.jpg",
+      "/data/images/item-26(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 26",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 62,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Premium Item #27",
+    "slug": "item-27",
+    "price": 7400,
+    "currency": "NGN",
+    "image": "/data/images/item-27.jpg",
+    "images": [
+      "/data/images/item-27.jpg",
+      "/data/images/item-27(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 27",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 64,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Premium Item #28",
+    "slug": "item-28",
+    "price": 7600,
+    "currency": "NGN",
+    "image": "/data/images/item-28.jpg",
+    "images": [
+      "/data/images/item-28.jpg",
+      "/data/images/item-28(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 28",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 66,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Premium Item #29",
+    "slug": "item-29",
+    "price": 7800,
+    "currency": "NGN",
+    "image": "/data/images/item-29.jpg",
+    "images": [
+      "/data/images/item-29.jpg",
+      "/data/images/item-29(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 29",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 68,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Premium Item #30",
+    "slug": "item-30",
+    "price": 8000,
+    "currency": "NGN",
+    "image": "/data/images/item-30.jpg",
+    "images": [
+      "/data/images/item-30.jpg",
+      "/data/images/item-30(1).jpg"
+    ],
+    "description": "Exclusive premium product collection item 30",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 70,
+    "tags": [
+      "premium",
+      "handcrafted",
+      "quality"
+    ]
+  }
+]

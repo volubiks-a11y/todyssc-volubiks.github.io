@@ -1,0 +1,512 @@
+[
+  {
+    "id": "1",
+    "name": "Item 1",
+    "slug": "item-1",
+    "price": 2100,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 1",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 11,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Item 2",
+    "slug": "item-2",
+    "price": 2200,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 2",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 12,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Item 3",
+    "slug": "item-3",
+    "price": 2300,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 3",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 13,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Item 4",
+    "slug": "item-4",
+    "price": 2400,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 4",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 14,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Item 5",
+    "slug": "item-5",
+    "price": 2500,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 5",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 15,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Item 6",
+    "slug": "item-6",
+    "price": 2600,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 6",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 16,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Item 7",
+    "slug": "item-7",
+    "price": 2700,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 7",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 17,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Item 8",
+    "slug": "item-8",
+    "price": 2800,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 8",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 18,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Item 9",
+    "slug": "item-9",
+    "price": 2900,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 9",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 19,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Item 10",
+    "slug": "item-10",
+    "price": 3000,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 10",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 20,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Item 11",
+    "slug": "item-11",
+    "price": 3100,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 11",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 21,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Item 12",
+    "slug": "item-12",
+    "price": 3200,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 12",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 22,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Item 13",
+    "slug": "item-13",
+    "price": 3300,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 13",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 23,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Item 14",
+    "slug": "item-14",
+    "price": 3400,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 14",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 24,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Item 15",
+    "slug": "item-15",
+    "price": 3500,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 15",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 25,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Item 16",
+    "slug": "item-16",
+    "price": 3600,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 16",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 26,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Item 17",
+    "slug": "item-17",
+    "price": 3700,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 17",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 27,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Item 18",
+    "slug": "item-18",
+    "price": 3800,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 18",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 28,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Item 19",
+    "slug": "item-19",
+    "price": 3900,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 19",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 29,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Item 20",
+    "slug": "item-20",
+    "price": 4000,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 20",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 30,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Item 21",
+    "slug": "item-21",
+    "price": 4100,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 21",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 31,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Item 22",
+    "slug": "item-22",
+    "price": 4200,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 22",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 32,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Item 23",
+    "slug": "item-23",
+    "price": 4300,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 23",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 33,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Item 24",
+    "slug": "item-24",
+    "price": 4400,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 24",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 34,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Item 25",
+    "slug": "item-25",
+    "price": 4500,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 25",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 35,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Item 26",
+    "slug": "item-26",
+    "price": 4600,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 26",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 36,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Item 27",
+    "slug": "item-27",
+    "price": 4700,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 27",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 37,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Item 28",
+    "slug": "item-28",
+    "price": 4800,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 28",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 38,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Item 29",
+    "slug": "item-29",
+    "price": 4900,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 29",
+    "category": "jewelries",
+    "featured": false,
+    "inventory": 39,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Item 30",
+    "slug": "item-30",
+    "price": 5000,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Premium product item 30",
+    "category": "jewelries",
+    "featured": true,
+    "inventory": 40,
+    "tags": [
+      "premium",
+      "quality"
+    ]
+  }
+]

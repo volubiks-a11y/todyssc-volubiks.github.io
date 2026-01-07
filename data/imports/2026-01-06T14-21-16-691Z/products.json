@@ -1,0 +1,515 @@
+[
+  {
+    "id": "1",
+    "name": "Royal Volubiks Diamond Pendant",
+    "slug": "royal-diamond-pendant",
+    "price": 1299,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A brilliant diamond pendant with classic setting.",
+    "category": "necklace",
+    "featured": true,
+    "inventory": 12,
+    "tags": [
+      "diamond",
+      "pendant",
+      "luxury"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Royal Volubiks Gold Ring",
+    "slug": "royal-gold-ring",
+    "price": 499,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Handcrafted gold ring with polished finish.",
+    "category": "rings",
+    "featured": false,
+    "inventory": 30,
+    "tags": [
+      "gold",
+      "ring"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Royal Volubiks Pearl Earrings",
+    "slug": "royal-pearl-earrings",
+    "price": 279,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Pearl drop earrings for elegant occasions.",
+    "category": "earrings",
+    "featured": false,
+    "inventory": 25,
+    "tags": [
+      "pearl",
+      "earrings"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Sample Pendant",
+    "slug": "sample-pendant",
+    "price": 1499,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "Sample pendant for import test",
+    "category": "necklace",
+    "featured": true,
+    "inventory": 5,
+    "tags": [
+      "sample",
+      "pendant"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Volubiks Necklace 5",
+    "slug": "volubiks-necklace-5",
+    "price": 907.01,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful necklace from Volubiks, model 5. Crafted with attention to detail and timeless style.",
+    "category": "necklace",
+    "featured": false,
+    "inventory": 49,
+    "tags": [
+      "luxury",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Volubiks Rings 6",
+    "slug": "volubiks-rings-6",
+    "price": 169.9,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful rings from Volubiks, model 6. Crafted with attention to detail and timeless style.",
+    "category": "rings",
+    "featured": false,
+    "inventory": 18,
+    "tags": [
+      "vintage",
+      "diamond"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Volubiks Pendants 7",
+    "slug": "volubiks-pendants-7",
+    "price": 719.74,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful pendants from Volubiks, model 7. Crafted with attention to detail and timeless style.",
+    "category": "pendants",
+    "featured": false,
+    "inventory": 14,
+    "tags": [
+      "minimal",
+      "vintage"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Volubiks Pendants 8",
+    "slug": "volubiks-pendants-8",
+    "price": 1122.76,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful pendants from Volubiks, model 8. Crafted with attention to detail and timeless style.",
+    "category": "pendants",
+    "featured": true,
+    "inventory": 13,
+    "tags": [
+      "silver",
+      "pearl"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Volubiks Pendants 9",
+    "slug": "volubiks-pendants-9",
+    "price": 644.3,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful pendants from Volubiks, model 9. Crafted with attention to detail and timeless style.",
+    "category": "pendants",
+    "featured": false,
+    "inventory": 31,
+    "tags": [
+      "diamond",
+      "luxury"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Volubiks Necklace 10",
+    "slug": "volubiks-necklace-10",
+    "price": 514.05,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful necklace from Volubiks, model 10. Crafted with attention to detail and timeless style.",
+    "category": "necklace",
+    "featured": false,
+    "inventory": 14,
+    "tags": [
+      "vintage",
+      "modern"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Volubiks Rings 11",
+    "slug": "volubiks-rings-11",
+    "price": 307.81,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful rings from Volubiks, model 11. Crafted with attention to detail and timeless style.",
+    "category": "rings",
+    "featured": false,
+    "inventory": 17,
+    "tags": [
+      "stackable",
+      "minimal"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Volubiks Bracelets 12",
+    "slug": "volubiks-bracelets-12",
+    "price": 508.85,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful bracelets from Volubiks, model 12. Crafted with attention to detail and timeless style.",
+    "category": "bracelets",
+    "featured": false,
+    "inventory": 35,
+    "tags": [
+      "stackable",
+      "silver"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Volubiks Pendants 13",
+    "slug": "volubiks-pendants-13",
+    "price": 810.24,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful pendants from Volubiks, model 13. Crafted with attention to detail and timeless style.",
+    "category": "pendants",
+    "featured": false,
+    "inventory": 25,
+    "tags": [
+      "pearl",
+      "gold"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Volubiks Anklet 14",
+    "slug": "volubiks-anklet-14",
+    "price": 336.44,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful anklet from Volubiks, model 14. Crafted with attention to detail and timeless style.",
+    "category": "anklet",
+    "featured": false,
+    "inventory": 13,
+    "tags": [
+      "stackable",
+      "diamond"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Volubiks Necklace 15",
+    "slug": "volubiks-necklace-15",
+    "price": 870.82,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful necklace from Volubiks, model 15. Crafted with attention to detail and timeless style.",
+    "category": "necklace",
+    "featured": false,
+    "inventory": 38,
+    "tags": [
+      "vintage",
+      "silver"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Volubiks Bracelets 16",
+    "slug": "volubiks-bracelets-16",
+    "price": 725.58,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful bracelets from Volubiks, model 16. Crafted with attention to detail and timeless style.",
+    "category": "bracelets",
+    "featured": false,
+    "inventory": 19,
+    "tags": [
+      "pearl",
+      "luxury"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Volubiks Anklet 17",
+    "slug": "volubiks-anklet-17",
+    "price": 731.22,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful anklet from Volubiks, model 17. Crafted with attention to detail and timeless style.",
+    "category": "anklet",
+    "featured": true,
+    "inventory": 48,
+    "tags": [
+      "handcrafted",
+      "pearl"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Volubiks Necklace 18",
+    "slug": "volubiks-necklace-18",
+    "price": 764.67,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful necklace from Volubiks, model 18. Crafted with attention to detail and timeless style.",
+    "category": "necklace",
+    "featured": true,
+    "inventory": 14,
+    "tags": [
+      "vintage",
+      "stackable"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Volubiks Necklace 19",
+    "slug": "volubiks-necklace-19",
+    "price": 300.02,
+    "currency": "NGN",
+    "image": "/images/volubiks-necklace-19.jpg",
+    "images": [
+      "/images/volubiks-necklace-19.jpg",
+      "/images/volubiks-necklace-19(1).jpg"
+    ],
+    "description": "A beautiful necklace from Volubiks, model 19. Crafted with attention to detail and timeless style.",
+    "category": "necklace",
+    "featured": false,
+    "inventory": 12,
+    "tags": [
+      "minimal",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Volubiks Pendants 20",
+    "slug": "volubiks-pendants-20",
+    "price": 349.8,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful pendants from Volubiks, model 20. Crafted with attention to detail and timeless style.",
+    "category": "pendants",
+    "featured": false,
+    "inventory": 3,
+    "tags": [
+      "vintage",
+      "modern"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Volubiks Brooch 21",
+    "slug": "volubiks-brooch-21",
+    "price": 1115.98,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful brooch from Volubiks, model 21. Crafted with attention to detail and timeless style.",
+    "category": "brooch",
+    "featured": true,
+    "inventory": 37,
+    "tags": [
+      "stackable",
+      "modern"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Volubiks Earrings 22",
+    "slug": "volubiks-earrings-22",
+    "price": 420.07,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful earrings from Volubiks, model 22. Crafted with attention to detail and timeless style.",
+    "category": "earrings",
+    "featured": false,
+    "inventory": 41,
+    "tags": [
+      "pearl"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Volubiks Bracelets 23",
+    "slug": "volubiks-bracelets-23",
+    "price": 296.05,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful bracelets from Volubiks, model 23. Crafted with attention to detail and timeless style.",
+    "category": "bracelets",
+    "featured": false,
+    "inventory": 47,
+    "tags": [
+      "diamond",
+      "handcrafted"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Volubiks Necklace 24",
+    "slug": "volubiks-necklace-24",
+    "price": 159.74,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful necklace from Volubiks, model 24. Crafted with attention to detail and timeless style.",
+    "category": "necklace",
+    "featured": false,
+    "inventory": 15,
+    "tags": [
+      "pearl",
+      "vintage"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Volubiks Necklace 25",
+    "slug": "volubiks-necklace-25",
+    "price": 1293.69,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful necklace from Volubiks, model 25. Crafted with attention to detail and timeless style.",
+    "category": "necklace",
+    "featured": false,
+    "inventory": 12,
+    "tags": [
+      "diamond",
+      "modern"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Volubiks Pendants 26",
+    "slug": "volubiks-pendants-26",
+    "price": 148.15,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful pendants from Volubiks, model 26. Crafted with attention to detail and timeless style.",
+    "category": "pendants",
+    "featured": false,
+    "inventory": 33,
+    "tags": [
+      "minimal",
+      "modern"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Volubiks Necklace 27",
+    "slug": "volubiks-necklace-27",
+    "price": 395.22,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful necklace from Volubiks, model 27. Crafted with attention to detail and timeless style.",
+    "category": "necklace",
+    "featured": false,
+    "inventory": 40,
+    "tags": [
+      "silver",
+      "gold"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Volubiks Rings 28",
+    "slug": "volubiks-rings-28",
+    "price": 1277.28,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful rings from Volubiks, model 28. Crafted with attention to detail and timeless style.",
+    "category": "rings",
+    "featured": true,
+    "inventory": 42,
+    "tags": [
+      "luxury",
+      "diamond"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Volubiks Necklace 29",
+    "slug": "volubiks-necklace-29",
+    "price": 1218.31,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful necklace from Volubiks, model 29. Crafted with attention to detail and timeless style.",
+    "category": "necklace",
+    "featured": true,
+    "inventory": 21,
+    "tags": [
+      "minimal",
+      "silver"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Volubiks Anklet 30",
+    "slug": "volubiks-anklet-30",
+    "price": 943.24,
+    "currency": "NGN",
+    "image": "",
+    "images": [],
+    "description": "A beautiful anklet from Volubiks, model 30. Crafted with attention to detail and timeless style.",
+    "category": "anklet",
+    "featured": false,
+    "inventory": 38,
+    "tags": [
+      "luxury",
+      "gold"
+    ]
+  }
+]

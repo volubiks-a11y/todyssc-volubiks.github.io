@@ -1,82 +1,222 @@
 [
   {
     "id": "1",
-    "name": "Royal Volubiks Diamond Pendant",
-    "slug": "royal-diamond-pendant",
-    "price": 24899,
+    "name": "Clothing Item #1",
+    "slug": "clothing-1",
+    "price": 5300,
     "currency": "NGN",
-    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=400&q=80",
+    "image": "/data/images/C1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=400&q=80",
-      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&q=80"
+      "/data/images/C1.jpg"
     ],
-    "description": "A brilliant diamond pendant with classic setting.",
-    "category": "jewelries",
-    "featured": true,
-    "inventory": 12,
+    "description": "Premium clothing collection item 1. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 16,
     "tags": [
-      "diamond",
-      "pendant",
-      "luxury"
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
     ]
   },
   {
     "id": "2",
-    "name": "Royal Volubiks Gold Ring",
-    "slug": "royal-gold-ring",
-    "price": 4999,
+    "name": "Clothing Item #2",
+    "slug": "clothing-2",
+    "price": 5600,
     "currency": "NGN",
-    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&q=80",
+    "image": "/data/images/C2.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&q=80",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&q=80"
+      "/data/images/C2.jpg"
     ],
-    "description": "Handcrafted gold ring with polished finish.",
-    "category": "jewelries",
+    "description": "Premium clothing collection item 2. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
     "featured": false,
-    "inventory": 30,
+    "inventory": 17,
     "tags": [
-      "gold",
-      "ring"
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
     ]
   },
   {
     "id": "3",
-    "name": "Royal Volubiks Pearl Earrings",
-    "slug": "royal-pearl-earrings",
-    "price": 279,
+    "name": "Clothing Item #3",
+    "slug": "clothing-3",
+    "price": 5900,
     "currency": "NGN",
-    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&q=80",
+    "image": "/data/images/C3.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&q=80",
-      "https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=400&q=80"
+      "/data/images/C3.jpg"
     ],
-    "description": "Pearl drop earrings for elegant occasions.",
-    "category": "jewelries",
-    "featured": false,
-    "inventory": 25,
+    "description": "Premium clothing collection item 3. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 18,
     "tags": [
-      "pearl",
-      "earrings"
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
     ]
   },
   {
     "id": "4",
-    "name": "Sample Pendant",
-    "slug": "sample-pendant",
-    "price": 1499,
+    "name": "Clothing Item #4",
+    "slug": "clothing-4",
+    "price": 6200,
     "currency": "NGN",
-    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=400&q=80",
+    "image": "/data/images/C4.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=400&q=80"
+      "/data/images/C4.jpg"
     ],
-    "description": "Sample pendant for import test",
-    "category": "jewelries",
-    "featured": true,
-    "inventory": 5,
+    "description": "Premium clothing collection item 4. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 19,
     "tags": [
-      "sample",
-      "pendant"
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Clothing Item #5",
+    "slug": "clothing-5",
+    "price": 6500,
+    "currency": "NGN",
+    "image": "/data/images/C5.jpg",
+    "images": [
+      "/data/images/C5.jpg"
+    ],
+    "description": "Premium clothing collection item 5. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 20,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Clothing Item #6",
+    "slug": "clothing-6",
+    "price": 6800,
+    "currency": "NGN",
+    "image": "/data/images/C6.jpg",
+    "images": [
+      "/data/images/C6.jpg"
+    ],
+    "description": "Premium clothing collection item 6. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 21,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Clothing Item #7",
+    "slug": "clothing-7",
+    "price": 7100,
+    "currency": "NGN",
+    "image": "/data/images/C7.jpg",
+    "images": [
+      "/data/images/C7.jpg"
+    ],
+    "description": "Premium clothing collection item 7. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 22,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Clothing Item #8",
+    "slug": "clothing-8",
+    "price": 7400,
+    "currency": "NGN",
+    "image": "/data/images/C8.jpg",
+    "images": [
+      "/data/images/C8.jpg"
+    ],
+    "description": "Premium clothing collection item 8. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 23,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Clothing Item #9",
+    "slug": "clothing-9",
+    "price": 7700,
+    "currency": "NGN",
+    "image": "/data/images/C9.jpg",
+    "images": [
+      "/data/images/C9.jpg"
+    ],
+    "description": "Premium clothing collection item 9. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 24,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Clothing Item #10",
+    "slug": "clothing-10",
+    "price": 8000,
+    "currency": "NGN",
+    "image": "/data/images/C10.jpg",
+    "images": [
+      "/data/images/C10.jpg"
+    ],
+    "description": "Premium clothing collection item 10. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 25,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
     ]
   }
 ]

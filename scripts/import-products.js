@@ -6,6 +6,9 @@ const fs = require('fs');
 const path = require('path');
 const XLSX = require('xlsx');
 
+const http = require('http');
+const https = require('https');
+
 const inFile = process.argv[2];
 if (!inFile) {
   console.error('Usage: node scripts/import-products.js <path-to-file> [--copy-images]');
@@ -58,7 +61,8 @@ async function main() {
     }
 
     // directory where images will be copied so the app can serve them
-    const publicImagesDir = path.join(root, 'public', 'images');
+    // Centralized in public/data/images for easier management
+    const publicImagesDir = path.join(root, 'public', 'data', 'images');
     if (copyImages) {
       fs.mkdirSync(publicImagesDir, { recursive: true });
     }
@@ -169,23 +173,27 @@ async function main() {
             if (!ext && /^https?:\/\//i.test(src)) {
               try { ext = path.extname(new URL(src).pathname) || '.jpg'; } catch (e) { ext = '.jpg'; }
             }
-            // build basename: first image 'id.ext', subsequent 'id(1).ext', etc.
+            // build basename: use slug (fallback to id) for readable filenames
+            const baseForFilename = (product.slug || product.id || String(id)).toString()
+              .toLowerCase()
+              .replace(/[^a-z0-9-_]+/g, '-')
+              .replace(/(^-|-$)/g, '') || String(product.id);
             const suffix = idx === 0 ? '' : `(${idx})`;
-            const filename = `${product.id}${suffix}${ext || '.jpg'}`;
+            const filename = `${baseForFilename}${suffix}${ext || '.jpg'}`;
             const destPath = path.join(imagesDir, filename);
 
             if (/^https?:\/\//i.test(src)) {
               await downloadImage(src, destPath);
               const publicDest = overwriteImages ? path.join(publicImagesDir, filename) : uniqueDest(publicImagesDir, filename);
               fs.copyFileSync(destPath, publicDest);
-              savedPublicPaths.push(path.posix.join('/images', path.basename(publicDest)));
+              savedPublicPaths.push(path.posix.join('/data/images', path.basename(publicDest)));
             } else {
               const resolved = path.resolve(src);
               if (fs.existsSync(resolved)) {
                 fs.copyFileSync(resolved, destPath);
                 const publicDest = overwriteImages ? path.join(publicImagesDir, filename) : uniqueDest(publicImagesDir, filename);
                 fs.copyFileSync(resolved, publicDest);
-                savedPublicPaths.push(path.posix.join('/images', path.basename(publicDest)));
+                  savedPublicPaths.push(path.posix.join('/data/images', path.basename(publicDest)));
               } else {
                 console.warn(`Image not found for product id=${product.id}: ${src}`);
               }
@@ -224,6 +232,21 @@ async function main() {
     console.error(err);
     process.exit(1);
   }
+}
+
+// small helper to download remote images when needed
+function downloadImage(url, dest) {
+  return new Promise((resolve, reject) => {
+    const mod = url.startsWith('https') ? https : http;
+    const req = mod.get(url, (res) => {
+      if (res.statusCode !== 200) return reject(new Error('Failed to download image, status ' + res.statusCode));
+      const file = fs.createWriteStream(dest);
+      res.pipe(file);
+      file.on('finish', () => file.close(resolve));
+      file.on('error', (err) => reject(err));
+    });
+    req.on('error', reject);
+  });
 }
 
 main();

@@ -31,17 +31,17 @@ export default function Landing() {
     return () => { mounted = false; };
   }, []);
 
-  // pick a representative image for each category
+  // Show clothing images only (all available images are clothing)
   const thumbByCategory = (cat) => {
-    const p = productsData.find(x => x.category === cat && x.images && x.images.length);
-    if (p) return p.images[0] || p.image || '';
-    // fallback images per category
-    const fallbacks = {
-      jewelries: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=900&q=60',
-      clothings: 'https://images.unsplash.com/photo-1520975915330-44c0b7b1d3d1?w=900&q=60',
-      drinks: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=900&q=60'
+    // Map each category to a C-prefixed image (existing clothing assets)
+    const mapping = {
+      jewelries: '/data/images/C1.jpg',
+      clothings: '/data/images/C2.jpg',
+      drinks: '/data/images/C3.jpg'
     };
-    return fallbacks[cat] || '';
+    // If products data contains clothings, prefer the first product image
+    const p = productsData.find(x => x.category === 'clothings' && x.images && x.images.length);
+    return mapping[cat] || (p ? p.images[0] : '/data/images/C1.jpg');
   };
 
   return (
