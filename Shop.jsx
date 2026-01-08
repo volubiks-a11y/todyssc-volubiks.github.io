@@ -18,21 +18,48 @@ export default function Shop() {
         const data = await response.json();
         console.log('Fetched products from JSON:', data);
         
-        // Ensure each product has at least 4 images by adding placeholders
+        // Ensure each product has images; expand grouped image sets (e.g. C1_1..C1_6)
         const placeholder = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjgiIGhlaWdodD0iNjgiIHZpZXdCb3g9IjAgMCA2OCA2OCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZGRkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM5OTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5ObyBJbWFnZTwvdGV4dD48L3N2Zz4=';
-        const normalized = data.map(product => ({
-          ...product,
-          images: product.images || [],
-          image: product.image || ''
-        })).map(product => {
-          while (product.images.length < 4) {
-            product.images.push(placeholder);
+
+        async function urlExists(url) {
+          try {
+            const res = await fetch(url, { method: 'HEAD' });
+            return res && res.ok;
+          } catch (e) {
+            return false;
           }
-          return product;
-        });
-        
-        console.log('Normalized products:', normalized.length);
-        setProducts(normalized);
+        }
+
+        // For each product try to expand image sets when filenames follow a numbered pattern
+        const normalizedBase = data.map(p => ({ ...p, images: p.images || [], image: p.image || '' }));
+
+        const expanded = await Promise.all(normalizedBase.map(async (product) => {
+          const imgs = Array.isArray(product.images) ? [...product.images] : [];
+
+          // If primary image exists and looks like '.../C1_1.jpg' or '.../name_1.jpg'
+          const match = (product.image || imgs[0] || '').match(/(\/data\/images\/)([A-Za-z0-9\-]+?)_(\d+)\.(jpg|jpeg|png|webp)$/i);
+          if (match) {
+            const prefix = match[1];
+            const base = match[2];
+            const ext = match[4] || 'jpg';
+
+            // probe up to 6 variants and collect those that exist
+            for (let i = 1; i <= 6; i++) {
+              const candidate = `${prefix}${base}_${i}.${ext}`;
+              if (!imgs.includes(candidate) && await urlExists(candidate)) {
+                imgs.push(candidate);
+              }
+            }
+          }
+
+          // Ensure at least 4 images (fill with placeholder)
+          while (imgs.length < 4) imgs.push(placeholder);
+
+          return { ...product, images: imgs };
+        }));
+
+        console.log('Normalized products:', expanded.length);
+        setProducts(expanded);
       } catch (error) {
         console.error('Failed to fetch products from JSON:', error);
       }

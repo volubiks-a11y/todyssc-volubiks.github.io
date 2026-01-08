@@ -31,17 +31,15 @@ export default function Landing() {
     return () => { mounted = false; };
   }, []);
 
-  // pick a representative image for each category
+  // Show clothing images only (all available images are clothing)
   const thumbByCategory = (cat) => {
-    const p = productsData.find(x => x.category === cat && x.images && x.images.length);
-    if (p) return p.images[0] || p.image || '';
-    // fallback images per category
-    const fallbacks = {
-      jewelries: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=900&q=60',
-      clothings: 'https://images.unsplash.com/photo-1520975915330-44c0b7b1d3d1?w=900&q=60',
-      drinks: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=900&q=60'
+    // Map each category to dedicated marketing images
+    const mapping = {
+      jewelries: '/data/images/hero/jewelries-hero.jpg',
+      clothings: '/data/images/hero/clothings-hero.jpg',
+      drinks: '/data/images/hero/drinks-hero.jpg'
     };
-    return fallbacks[cat] || '';
+    return mapping[cat] || '/data/images/hero/clothings-hero.jpg';
   };
 
   return (
@@ -53,6 +51,9 @@ export default function Landing() {
 
       <main className="landing landing-minimal" aria-labelledby="landing-title">
         <header className="landing-hero">
+          <div className="landing-hero-background" role="img" aria-label="Volubiks Collections Hero">
+            <img src="/data/images/hero/clothings-hero.jpg" alt="Collections Hero" className="hero-bg-image" loading="lazy" />
+          </div>
           <div className="landing-hero-inner">
             <h1 id="landing-title" className="hero-ojaja">
               <span className="hero-crown" aria-hidden="true"><svg width="36" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 8l3 8 4-6 4 6 4-8 3 8H2z" fill="#b8860b"/></svg></span>

@@ -1,82 +1,1034 @@
 [
   {
     "id": "1",
-    "name": "Royal Volubiks Diamond Pendant",
-    "slug": "royal-diamond-pendant",
-    "price": 24899,
+    "name": "Clothing Item #1",
+    "slug": "clothing-1",
+    "price": 5300,
     "currency": "NGN",
-    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=400&q=80",
+    "image": "/data/images/C1_1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=400&q=80",
-      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&q=80"
+      "/data/images/C1_1.jpg",
+      "/data/images/C1_2.jpg"
     ],
-    "description": "A brilliant diamond pendant with classic setting.",
-    "category": "jewelries",
-    "featured": true,
-    "inventory": 12,
+    "description": "Premium clothing collection item 1. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 16,
     "tags": [
-      "diamond",
-      "pendant",
-      "luxury"
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
     ]
   },
   {
     "id": "2",
-    "name": "Royal Volubiks Gold Ring",
-    "slug": "royal-gold-ring",
-    "price": 4999,
+    "name": "Clothing Item #2",
+    "slug": "clothing-2",
+    "price": 5600,
     "currency": "NGN",
-    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&q=80",
+    "image": "/data/images/C2_1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&q=80",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&q=80"
+      "/data/images/C2_1.jpg",
+      "/data/images/C2_2.jpg"
     ],
-    "description": "Handcrafted gold ring with polished finish.",
-    "category": "jewelries",
+    "description": "Premium clothing collection item 2. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
     "featured": false,
-    "inventory": 30,
+    "inventory": 17,
     "tags": [
-      "gold",
-      "ring"
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
     ]
   },
   {
     "id": "3",
-    "name": "Royal Volubiks Pearl Earrings",
-    "slug": "royal-pearl-earrings",
-    "price": 279,
+    "name": "Clothing Item #3",
+    "slug": "clothing-3",
+    "price": 5900,
     "currency": "NGN",
-    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&q=80",
+    "image": "/data/images/C3_1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&q=80",
-      "https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?w=400&q=80"
+      "/data/images/C3_1.jpg",
+      "/data/images/C3_2.jpg"
     ],
-    "description": "Pearl drop earrings for elegant occasions.",
-    "category": "jewelries",
-    "featured": false,
-    "inventory": 25,
+    "description": "Premium clothing collection item 3. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 18,
     "tags": [
-      "pearl",
-      "earrings"
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
     ]
   },
   {
     "id": "4",
-    "name": "Sample Pendant",
-    "slug": "sample-pendant",
-    "price": 1499,
+    "name": "Clothing Item #4",
+    "slug": "clothing-4",
+    "price": 6200,
     "currency": "NGN",
-    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=400&q=80",
+    "image": "/data/images/C4_1.jpg",
     "images": [
-      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=400&q=80"
+      "/data/images/C4_1.jpg",
+      "/data/images/C4_2.jpg"
     ],
-    "description": "Sample pendant for import test",
-    "category": "jewelries",
-    "featured": true,
-    "inventory": 5,
+    "description": "Premium clothing collection item 4. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 19,
     "tags": [
-      "sample",
-      "pendant"
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Clothing Item #5",
+    "slug": "clothing-5",
+    "price": 6500,
+    "currency": "NGN",
+    "image": "/data/images/C5_1.jpg",
+    "images": [
+      "/data/images/C5_1.jpg",
+      "/data/images/C5_2.jpg"
+    ],
+    "description": "Premium clothing collection item 5. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 20,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Clothing Item #6",
+    "slug": "clothing-6",
+    "price": 6800,
+    "currency": "NGN",
+    "image": "/data/images/C6_1.jpg",
+    "images": [
+      "/data/images/C6_1.jpg",
+      "/data/images/C6_2.jpg"
+    ],
+    "description": "Premium clothing collection item 6. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 21,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Clothing Item #7",
+    "slug": "clothing-7",
+    "price": 7100,
+    "currency": "NGN",
+    "image": "/data/images/C7_1.jpg",
+    "images": [
+      "/data/images/C7_1.jpg",
+      "/data/images/C7_2.jpg"
+    ],
+    "description": "Premium clothing collection item 7. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 22,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Clothing Item #8",
+    "slug": "clothing-8",
+    "price": 7400,
+    "currency": "NGN",
+    "image": "/data/images/C8_1.jpg",
+    "images": [
+      "/data/images/C8_1.jpg",
+      "/data/images/C8_2.jpg"
+    ],
+    "description": "Premium clothing collection item 8. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 23,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Clothing Item #9",
+    "slug": "clothing-9",
+    "price": 7700,
+    "currency": "NGN",
+    "image": "/data/images/C9_1.jpg",
+    "images": [
+      "/data/images/C9_1.jpg",
+      "/data/images/C9_2.jpg"
+    ],
+    "description": "Premium clothing collection item 9. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 24,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Clothing Item #10",
+    "slug": "clothing-10",
+    "price": 8000,
+    "currency": "NGN",
+    "image": "/data/images/C10_1.jpg",
+    "images": [
+      "/data/images/C10_1.jpg",
+      "/data/images/C10_2.jpg"
+    ],
+    "description": "Premium clothing collection item 10. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 25,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Clothing Item #11",
+    "slug": "clothing-11",
+    "price": 8300,
+    "currency": "NGN",
+    "image": "/data/images/C11_1.jpg",
+    "images": [
+      "/data/images/C11_1.jpg",
+      "/data/images/C11_2.jpg"
+    ],
+    "description": "Premium clothing collection item 11. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 26,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Clothing Item #12",
+    "slug": "clothing-12",
+    "price": 8600,
+    "currency": "NGN",
+    "image": "/data/images/C12_1.jpg",
+    "images": [
+      "/data/images/C12_1.jpg"
+    ],
+    "description": "Premium clothing collection item 12. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 27,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Clothing Item #13",
+    "slug": "clothing-13",
+    "price": 8900,
+    "currency": "NGN",
+    "image": "/data/images/C13_1.jpg",
+    "images": [
+      "/data/images/C13_1.jpg"
+    ],
+    "description": "Premium clothing collection item 13. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 28,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Clothing Item #14",
+    "slug": "clothing-14",
+    "price": 9200,
+    "currency": "NGN",
+    "image": "/data/images/C14_1.jpg",
+    "images": [
+      "/data/images/C14_1.jpg"
+    ],
+    "description": "Premium clothing collection item 14. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 29,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Clothing Item #15",
+    "slug": "clothing-15",
+    "price": 9500,
+    "currency": "NGN",
+    "image": "/data/images/C15_1.jpg",
+    "images": [
+      "/data/images/C15_1.jpg"
+    ],
+    "description": "Premium clothing collection item 15. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 30,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Clothing Item #16",
+    "slug": "clothing-16",
+    "price": 9800,
+    "currency": "NGN",
+    "image": "/data/images/C16_1.jpg",
+    "images": [
+      "/data/images/C16_1.jpg"
+    ],
+    "description": "Premium clothing collection item 16. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 31,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Clothing Item #17",
+    "slug": "clothing-17",
+    "price": 10100,
+    "currency": "NGN",
+    "image": "/data/images/C17_1.jpg",
+    "images": [
+      "/data/images/C17_1.jpg"
+    ],
+    "description": "Premium clothing collection item 17. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 32,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Clothing Item #18",
+    "slug": "clothing-18",
+    "price": 10400,
+    "currency": "NGN",
+    "image": "/data/images/C18_1.jpg",
+    "images": [
+      "/data/images/C18_1.jpg"
+    ],
+    "description": "Premium clothing collection item 18. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 33,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Clothing Item #19",
+    "slug": "clothing-19",
+    "price": 10700,
+    "currency": "NGN",
+    "image": "/data/images/C19_1.jpg",
+    "images": [
+      "/data/images/C19_1.jpg"
+    ],
+    "description": "Premium clothing collection item 19. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 34,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Clothing Item #20",
+    "slug": "clothing-20",
+    "price": 11000,
+    "currency": "NGN",
+    "image": "/data/images/C20_1.jpg",
+    "images": [
+      "/data/images/C20_1.jpg"
+    ],
+    "description": "Premium clothing collection item 20. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 35,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Clothing Item #21",
+    "slug": "clothing-21",
+    "price": 11300,
+    "currency": "NGN",
+    "image": "/data/images/C21_1.jpg",
+    "images": [
+      "/data/images/C21_1.jpg",
+      "/data/images/C21_2.jpg"
+    ],
+    "description": "Premium clothing collection item 21. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 36,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Clothing Item #22",
+    "slug": "clothing-22",
+    "price": 11600,
+    "currency": "NGN",
+    "image": "/data/images/C22_1.jpg",
+    "images": [
+      "/data/images/C22_1.jpg",
+      "/data/images/C22_2.jpg"
+    ],
+    "description": "Premium clothing collection item 22. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 37,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Clothing Item #23",
+    "slug": "clothing-23",
+    "price": 11900,
+    "currency": "NGN",
+    "image": "/data/images/C23_1.jpg",
+    "images": [
+      "/data/images/C23_1.jpg",
+      "/data/images/C23_2.jpg"
+    ],
+    "description": "Premium clothing collection item 23. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 38,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Clothing Item #24",
+    "slug": "clothing-24",
+    "price": 12200,
+    "currency": "NGN",
+    "image": "/data/images/C24_1.jpg",
+    "images": [
+      "/data/images/C24_1.jpg",
+      "/data/images/C24_2.jpg"
+    ],
+    "description": "Premium clothing collection item 24. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 39,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Clothing Item #25",
+    "slug": "clothing-25",
+    "price": 12500,
+    "currency": "NGN",
+    "image": "/data/images/C25_1.jpg",
+    "images": [
+      "/data/images/C25_1.jpg",
+      "/data/images/C25_2.jpg"
+    ],
+    "description": "Premium clothing collection item 25. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 40,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Clothing Item #26",
+    "slug": "clothing-26",
+    "price": 12800,
+    "currency": "NGN",
+    "image": "/data/images/C26_1.jpg",
+    "images": [
+      "/data/images/C26_1.jpg",
+      "/data/images/C26_2.jpg"
+    ],
+    "description": "Premium clothing collection item 26. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 41,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Clothing Item #27",
+    "slug": "clothing-27",
+    "price": 13100,
+    "currency": "NGN",
+    "image": "/data/images/C27_1.jpg",
+    "images": [
+      "/data/images/C27_1.jpg",
+      "/data/images/C27_2.jpg"
+    ],
+    "description": "Premium clothing collection item 27. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 42,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Clothing Item #28",
+    "slug": "clothing-28",
+    "price": 13400,
+    "currency": "NGN",
+    "image": "/data/images/C28_1.jpg",
+    "images": [
+      "/data/images/C28_1.jpg"
+    ],
+    "description": "Premium clothing collection item 28. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 43,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Clothing Item #29",
+    "slug": "clothing-29",
+    "price": 13700,
+    "currency": "NGN",
+    "image": "/data/images/C29_1.jpg",
+    "images": [
+      "/data/images/C29_1.jpg"
+    ],
+    "description": "Premium clothing collection item 29. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 44,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Clothing Item #30",
+    "slug": "clothing-30",
+    "price": 14000,
+    "currency": "NGN",
+    "image": "/data/images/C30_1.jpg",
+    "images": [
+      "/data/images/C30_1.jpg"
+    ],
+    "description": "Premium clothing collection item 30. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 45,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Clothing Item #31",
+    "slug": "clothing-31",
+    "price": 14300,
+    "currency": "NGN",
+    "image": "/data/images/C31_1.jpg",
+    "images": [
+      "/data/images/C31_1.jpg"
+    ],
+    "description": "Premium clothing collection item 31. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 46,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Clothing Item #32",
+    "slug": "clothing-32",
+    "price": 14600,
+    "currency": "NGN",
+    "image": "/data/images/C32_1.jpg",
+    "images": [
+      "/data/images/C32_1.jpg"
+    ],
+    "description": "Premium clothing collection item 32. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 47,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Clothing Item #33",
+    "slug": "clothing-33",
+    "price": 14900,
+    "currency": "NGN",
+    "image": "/data/images/C33_1.jpg",
+    "images": [
+      "/data/images/C33_1.jpg"
+    ],
+    "description": "Premium clothing collection item 33. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 48,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Clothing Item #34",
+    "slug": "clothing-34",
+    "price": 15200,
+    "currency": "NGN",
+    "image": "/data/images/C34_1.jpg",
+    "images": [
+      "/data/images/C34_1.jpg"
+    ],
+    "description": "Premium clothing collection item 34. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 49,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Clothing Item #35",
+    "slug": "clothing-35",
+    "price": 15500,
+    "currency": "NGN",
+    "image": "/data/images/C35_1.jpg",
+    "images": [
+      "/data/images/C35_1.jpg"
+    ],
+    "description": "Premium clothing collection item 35. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 50,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Clothing Item #36",
+    "slug": "clothing-36",
+    "price": 15800,
+    "currency": "NGN",
+    "image": "/data/images/C36_1.jpg",
+    "images": [
+      "/data/images/C36_1.jpg"
+    ],
+    "description": "Premium clothing collection item 36. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 51,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Clothing Item #37",
+    "slug": "clothing-37",
+    "price": 16100,
+    "currency": "NGN",
+    "image": "/data/images/C37_1.jpg",
+    "images": [
+      "/data/images/C37_1.jpg"
+    ],
+    "description": "Premium clothing collection item 37. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 52,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Clothing Item #38",
+    "slug": "clothing-38",
+    "price": 16400,
+    "currency": "NGN",
+    "image": "/data/images/C38_1.jpg",
+    "images": [
+      "/data/images/C38_1.jpg",
+      "/data/images/C38_2.jpg"
+    ],
+    "description": "Premium clothing collection item 38. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 53,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "39",
+    "name": "Clothing Item #39",
+    "slug": "clothing-39",
+    "price": 16700,
+    "currency": "NGN",
+    "image": "/data/images/C39_1.jpg",
+    "images": [
+      "/data/images/C39_1.jpg"
+    ],
+    "description": "Premium clothing collection item 39. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 54,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "40",
+    "name": "Clothing Item #40",
+    "slug": "clothing-40",
+    "price": 17000,
+    "currency": "NGN",
+    "image": "/data/images/C40_1.jpg",
+    "images": [
+      "/data/images/C40_1.jpg",
+      "/data/images/C40_2.jpg"
+    ],
+    "description": "Premium clothing collection item 40. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 55,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Clothing Item #41",
+    "slug": "clothing-41",
+    "price": 17300,
+    "currency": "NGN",
+    "image": "/data/images/C41_1.jpg",
+    "images": [
+      "/data/images/C41_1.jpg"
+    ],
+    "description": "Premium clothing collection item 41. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 56,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Clothing Item #42",
+    "slug": "clothing-42",
+    "price": 17600,
+    "currency": "NGN",
+    "image": "/data/images/C42_1.jpg",
+    "images": [
+      "/data/images/C42_1.jpg"
+    ],
+    "description": "Premium clothing collection item 42. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 57,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Clothing Item #43",
+    "slug": "clothing-43",
+    "price": 17900,
+    "currency": "NGN",
+    "image": "/data/images/C43_1.jpg",
+    "images": [
+      "/data/images/C43_1.jpg"
+    ],
+    "description": "Premium clothing collection item 43. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 58,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Clothing Item #44",
+    "slug": "clothing-44",
+    "price": 18200,
+    "currency": "NGN",
+    "image": "/data/images/C44_1.jpg",
+    "images": [
+      "/data/images/C44_1.jpg"
+    ],
+    "description": "Premium clothing collection item 44. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": true,
+    "inventory": 59,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "45",
+    "name": "Clothing Item #45",
+    "slug": "clothing-45",
+    "price": 18500,
+    "currency": "NGN",
+    "image": "/data/images/C45_1.jpg",
+    "images": [
+      "/data/images/C45_1.jpg"
+    ],
+    "description": "Premium clothing collection item 45. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 60,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
+    ]
+  },
+  {
+    "id": "46",
+    "name": "Clothing Item #46",
+    "slug": "clothing-46",
+    "price": 18800,
+    "currency": "NGN",
+    "image": "/data/images/C46_1.jpg",
+    "images": [
+      "/data/images/C46_1.jpg"
+    ],
+    "description": "Premium clothing collection item 46. Comfortable and stylish wear for everyday occasions.",
+    "category": "clothings",
+    "featured": false,
+    "inventory": 61,
+    "tags": [
+      "clothing",
+      "comfortable",
+      "stylish",
+      "quality",
+      "wear"
     ]
   }
 ]

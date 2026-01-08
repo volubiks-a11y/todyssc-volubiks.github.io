@@ -7,8 +7,11 @@
     "build": "vite build",
     "preview": "vite preview",
     "import:products": "node scripts/import-products.js",
+    "import:interval": "node scripts/import-interval.js public/data/products.csv 120000",
     "generate:sitemap": "node scripts/generate-sitemap.js",
-    "enhance:security": "node scripts/enhance-security.js"
+    "enhance:security": "node scripts/enhance-security.js",
+    "generate:images": "node scripts/generate-images.js",
+    "import:excel": "node scripts/import-excel-sheets.js"
   },
   "dependencies": {
     "react": "^18.2.0",
